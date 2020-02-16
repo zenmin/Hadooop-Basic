@@ -10,7 +10,7 @@ import java.net.URISyntaxException;
 import java.util.Arrays;
 
 /**
- * @Describle This Class Is
+ * @Describle This Class Is HDFS 基础api
  * @Author ZengMin
  * @Date 2020/2/7 11:03
  */
