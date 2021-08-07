@@ -1,4 +1,4 @@
-package client;
+package hdfs.client;
 
 import org.apache.commons.io.IOUtils;
 import org.apache.hadoop.conf.Configuration;

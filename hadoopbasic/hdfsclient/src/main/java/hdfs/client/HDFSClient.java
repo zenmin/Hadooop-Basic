@@ -1,4 +1,4 @@
-package client;
+package hdfs.client;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.*;
@@ -108,7 +108,7 @@ public class HDFSClient {
         try {
             fileSystem = FileSystem.get(new URI("hdfs://hadoop02:9000"), configuration, "hadoop");
             // b表示是否递归  文件夹必须为true
-            fileSystem.delete(new Path("/home/zm2"), true);
+            fileSystem.delete(new Path("/home/zm/dir"), true);
             fileSystem.close();
         } catch (Exception e) {
             e.printStackTrace();
